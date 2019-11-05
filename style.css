@@ -1,0 +1,226 @@
+html {
+    height: 100%;
+    background-image: url("casino.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+body {
+    background: transparent;
+    color: #ffffff;
+}
+
+.bluelight {
+    text-shadow: 0 0 10px #3498DB,
+        0 0 20px #3498DB,
+        0 0 30px #3498DB,
+        0 0 40px #2980B9,
+        0 0 70px #2980B9,
+        0 0 80px #2980B9,
+        0 0 100px #2980B9,
+        0 0 150px #2980B9;
+}
+
+.clock {
+    overflow: hidden;
+}
+
+.col-md-12 {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.top-pane {
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #34495E;
+    border: 0px;
+}
+
+.bottom-pane {
+    margin-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #2C3E50;
+    border: 0px;
+}
+
+.carousel {
+    margin-top: 5%;
+}
+
+.sponsors {
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .num {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .num {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .num {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 75px;
+    }
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        margin-bottom: 75px;
+        font-size: 100px;
+    }
+}
