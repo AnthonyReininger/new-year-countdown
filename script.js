@@ -15,7 +15,7 @@ function timeLeft(endtime){
 
 $(document).ready(function() {
   var today = new Date();
-  var deadline = 'January 1 ' + (today.getFullYear() +1) + " 00:00:00";
+  var deadline = 'January 1 ' + (today.getFullYear() + 1) + " 00:00:00";
   if (today.getMonth() == 0 && today.getDate() == 1) {
     deadline = 'January 1 ' + (today.getFullYear()) + " 00:00:00";
   };
