@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-image: url("casino.jpg");
+    background-image: url("casino.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,14 +35,14 @@ body {
 .top-pane {
     margin-bottom: 0px;
     border-radius: 5px 5px 0px 0px;
-    background-color: #34495E;
+    background-color: #d19da4;
     border: 0px;
 }
 
 .bottom-pane {
     margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
-    background-color: #2C3E50;
+    background-color: #b76e79;
     border: 0px;
 }
 
