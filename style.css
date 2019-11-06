@@ -35,14 +35,16 @@ body {
 .top-pane {
     margin-bottom: 0px;
     border-radius: 5px 5px 0px 0px;
-    background-color: #e1ba43;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
     border: 0px;
 }
 
 .bottom-pane {
     margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
-    background-color: #c7a42b;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
     border: 0px;
 }
 
