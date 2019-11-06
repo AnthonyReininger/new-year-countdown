@@ -35,14 +35,14 @@ body {
 .top-pane {
     margin-bottom: 0px;
     border-radius: 5px 5px 0px 0px;
-    background-color: #d19da4;
+    background-color: #e1ba43;
     border: 0px;
 }
 
 .bottom-pane {
     margin-top: 0px;
     border-radius: 0px 0px 5px 5px;
-    background-color: #b76e79;
+    background-color: #c7a42b;
     border: 0px;
 }
 
