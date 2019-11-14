@@ -251,8 +251,9 @@ h1 {
         width: 75%;
     }
     
-    .slide {
-        width: 60%;
+    .slide > img {
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
