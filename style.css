@@ -1,10 +1,8 @@
 html {
-    height: 100%;
     background-image: url("casino.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 body {
@@ -235,3 +233,26 @@ h1 {
         font-size: 100px;
     }
 }
+
+@media (max-width: 1440px) {
+    html {
+        padding-bottom: 10%;
+    }
+    
+    #header{
+        font-size: 50px;
+    }
+    
+    .num{
+        font-size: 50px;
+    }
+    
+    .clock{
+        width: 75%;
+    }
+    
+    .slide {
+        width: 60%;
+    }
+}
+
