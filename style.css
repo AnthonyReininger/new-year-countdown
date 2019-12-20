@@ -1,6 +1,7 @@
 html {
     height: 100%;
-    background-image: url("casino.png");
+    background-color: darkgray;
+/*    background-image: url("casino.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,6 +236,12 @@ h1 {
         margin-bottom: 75px;
         font-size: 100px;
     }
+    
+/*
+    .box {
+        margin-left: 12%;
+    }
+*/
 }
 
 @media (max-width: 1440px) {
@@ -250,9 +257,6 @@ h1 {
         font-size: 50px;
     }
     
-    .clock{
-        width: 75%;
-    }
     
     .slide > img {
         width: 70%;
