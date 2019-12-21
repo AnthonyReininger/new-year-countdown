@@ -1,7 +1,8 @@
 html {
     height: 100%;
-    background-color: darkgray;
-/*    background-image: url("casino.png");*/
+    background: rgb(66, 66, 66);
+    background: linear-gradient(0deg, rgba(66, 66, 66, 1) 0%, rgba(149, 149, 149, 1) 49%, rgba(208, 208, 208, 1) 100%, rgba(156, 156, 156, 1) 100%);
+    /*    background-image: url("casino.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,8 +237,8 @@ h1 {
         margin-bottom: 75px;
         font-size: 100px;
     }
-    
-/*
+
+    /*
     .box {
         margin-left: 12%;
     }
@@ -248,19 +249,18 @@ h1 {
     html {
         padding-bottom: 10%;
     }
-    
-    #header{
+
+    #header {
         font-size: 50px;
     }
-    
-    .num{
+
+    .num {
         font-size: 50px;
     }
-    
-    
+
+
     .slide > img {
         width: 70%;
         margin: 0 auto;
     }
 }
-
